@@ -6,10 +6,10 @@ let name ="Subhasis" //string
 let age = 23         //number 
 let isLogIn = true   //boolean [true / false]
 let something = null //null   
-let state  // undefined
+let state            // undefined
 
 // null => it is a standalone value 
-//undefined =>
+// undefined =>
 // Symbol => unique 
 
 // Object
