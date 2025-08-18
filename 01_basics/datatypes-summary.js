@@ -38,8 +38,8 @@ let user  = {
     age : 23
 }
 
-console.log(user.name);
-console.log(user.age);
+// console.log(user.name);
+// console.log(user.age);
 
 
 // function
@@ -48,6 +48,34 @@ const MyFunction = function (){
     console.log("HEllo World..");
 }
 
-MyFunction();
+// MyFunction();
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack and heap, heap(Non primitive)
+
+// stack and heap
+let MyName = "Subhasis"
+
+let FullName = MyName;
+FullName = "Subhais Samantasinghar";
+
+// console.log(MyName);
+// console.log(FullName);
+
+// heap(Non primitive)
+
+let userOne = {
+    userEmail : "subhasis@gmail.com",
+    upi: "Subhasis@yml"
+}
+
+let userTwo = userOne;
+
+userTwo.userEmail = "userTwo@gmail.com"
+
+console.log(userOne.userEmail);
+console.log(userTwo.userEmail);
+
 
 
