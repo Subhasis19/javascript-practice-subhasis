@@ -22,7 +22,7 @@ let myTimeStamp = Date.now()
 
 let newDate = new Date()
 console.log(newDate)
-console.log(newDate.getMonth() + 1x)
+console.log(newDate.getMonth() + 1)
 console.log(newDate.getFullYear())
 console.log(newDate.getDate())
 console.log(newDate.getDay())
