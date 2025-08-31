@@ -32,13 +32,25 @@ const obj2 ={
 // console.log(obj3);
 
 obj3 = { ...obj1 , ...obj2} 
-console.log(obj3);
+// console.log(obj3);
 
-console.log(tinderUser);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
 
+
+//de-structure of an object 
+
+const user ={
+    name : "Subhasis",
+    age : 22,
+    add : "India"
+}
+
+const {name : username1 , age } = user
+console.log(username1);
+console.log(age);
