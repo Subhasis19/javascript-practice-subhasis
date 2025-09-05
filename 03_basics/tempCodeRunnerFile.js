@@ -1,3 +1,2 @@
-ge(username){
-//     console.log(`${username} just loggedin..`);
-// }
+
+console.log(b);
