@@ -1,2 +1,3 @@
-
-console.log(b);
+ion one(){
+    console.log(`DB connected.`);
+})()
