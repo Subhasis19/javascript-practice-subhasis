@@ -12,7 +12,7 @@ one();
 
 (function two(){
     // this also called named iife . cuz it has a name that is "two"...
-    console.log(`DB connected.`);
+    console.log(`DB connected. 2nd`);
 })();
 
 
