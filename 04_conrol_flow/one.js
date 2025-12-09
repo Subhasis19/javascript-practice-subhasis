@@ -1,48 +1,63 @@
-// if ( 2 === "2"){
-//     console.log("excuted");
-// }else{
-//     console.log("Not excuted ");
-// }
+// control flow 
 
+// if
+const isLogIn = true;
 
-// if (2=="2"){   ///this will only check values  ..no the datatype 
-//     console.log("Executed");
-// }
-
-// if (2==="2"){   // if you use === it will check the value and the datatype also .. 
-//     console.log("Executed");
-// }
-
-// //<,>,<= , >=,== ,!= ,===
-
-// const Temperature = 42
-
-
-// if (Temperature < 50 ){
-//     console.log("Less than 50 .");
-// } else{
-//     console.log("Temperature is greater than 50. ");
-// }
-
-
-// let score = 200 ;
-
-// if (score > 100) {
-//     const power = "Fly";
-//     console.log(`users power is: ${power}`);   // youcan use the power Variable because it's inside the functional scope. 
+// if (isLogIn) {
+//     console.log("welcome User ");
     
 // }
-// console.log(`users power is: ${power}`); // This will give you an error because it's in global scope and you cannot use functional scope variable outside of its function. 
 
 
-// Shorthand notation. 
-const balance =1000
-if (balance > 500 ) console.log("test") ,  console.log("test 2 "); // This is not recommended 
-// This is called an implicit scope .
+// if (2 === "2") {
+//     console.log("Excuted")
+// }
+
+// <, > , <= , >= , == ,!= ,=== ,!== ,
+
+const temperature = 41;
+
+// if (temperature < 50){
+//     console.log("temperature is is less tahn 50 ")
+// } else {
+//     console.log("temperature is is greater tahn 50 ")
+// }
 
 
 
+// const score =200;
+
+// if (score > 100){
+//     let power = "Fly"
+//     console.log(`User power is : ${power}`)
+// }
 
 
+const balance = 1000 ;
+
+// if (balance > 500 ) console.log("test"), console.log("test2"); // this is not recomended ...
+
+// if (balance <500 ){
+//     console.log("les than 500")
+// } else if(balance < 750 ) {
+//     console.log("les than 750")
+// } else if(balance < 900 ) {
+//     console.log("les than 900")
+// } else if(balance < 1200 ) {
+//     console.log("les than 1200")
+// }
 
 
+const userLoggedIn = true
+const debitCard = true
+const loggedInFormGoogle = true
+const loggedInFormEmail = false
+
+if ( userLoggedIn && debitCard ){
+    console.log("Allow to buy .")
+}   
+
+if (loggedInFormEmail || loggedInFormGoogle){
+    console.log("User Logged in..");
+    
+}
